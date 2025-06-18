@@ -24,18 +24,22 @@ display: inline;
 
 li a{
 
-float: left;
+  float: left;
   display: block;
   color: #f2f2f2;
   display: inline;
   color: black;
   text-align: center;
-  padding: 3% 3%;
+  padding: 2% 4%;
   text-decoration: none;
   background-color:green;
   border-color: black;
+
 }
 
 li a:hover{
 background-color:#a9eb9b;
+}
+a{
+font-size: 100%;
 }

@@ -1,5 +1,5 @@
 body{
-background-color:#a9eb9b;
+background-color:#a9eb9b ;
 }
 
 *{
@@ -46,4 +46,8 @@ background-color:#a9eb9b;
 }
 a{
 font-size: 100%;
+}
+
+.banner1{
+margin-top: -17%;
 }

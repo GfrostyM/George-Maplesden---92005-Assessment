@@ -51,3 +51,9 @@ font-size: 100%;
 .banner1{
 margin-top: -17%;
 }
+
+.footer{
+border: solid black 1px;
+background-color: green;
+margin: 0;
+}

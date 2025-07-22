@@ -1,3 +1,7 @@
+body{
+background-color:#a9eb9b ;
+}
+
 *{
 margin: 0%;
 padding: 0%;
@@ -11,26 +15,12 @@ list-style-type: none;
 margin-bottom:17%;
 padding:0%;
 overflow: hidden;
-background-image:url("/images/forrest.jpg");
+background-color:green;
 align: center;
-border:2px solid #154a0a
+border:2px solid #154a0a;
 width:100%;
 
 }
-
-.banner{
-margin-top:-17%;
-
-}
-
-.div3{
-padding:2%;
-}
-
-body{
-background-color:#a9eb9b;
-}
-
 
 li{
 display: inline;
@@ -58,30 +48,12 @@ a{
 font-size: 100%;
 }
 
-.videobio{
-content-align:center;
-padding:2%;
-}
-
-.div5{
-padding:2%;
-}
-
-.div6{
-padding:2%;
+.banner2{
+margin-top: -17%;
 }
 
 .footer{
 border: solid black 1px;
 background-color: green;
 margin: 0;
-}
-
-.div8{
-
-}
-
-
-p{
-font-size: 130%;
 }

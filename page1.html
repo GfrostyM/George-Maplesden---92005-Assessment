@@ -26,31 +26,60 @@
 
   <div class="pestmain">
      <h2> <b>Pests in Aotearoa</b></h2>
-<div style="display: flex; align-items: center;">
-  <img src="images/bignztree.jpg" alt="Example Image" width="30%">
-
-  <p style="margin-left: 10px;">.
-  Pests in NewZealand are quickly becoming a more prominent
-        and worrying issue for the biodiversty of our country.
-  </p>
-</div>
-</div>
+      <div style="display: flex; align-items: center;">
+          <img src="images/pests1.webp" alt="Example Image" width="30%">
+          <p style="margin-left: 10px;">
+              Pests in NewZealand are quickly becoming a more prominent
+              and worrying issue for the biodiversity of our country.
+              The main threats that pests pose to the biodiversity in
+              New Zealand is that they destroy land, spread dangerous
+              diseases and kill/harm our native wildlife such as, birds
+              and plants.
+          </p>
+      </div>
+  </div>
 
     <div class="pestmain2">
-     <h2> <b>Pests in Aotearoa</b></h2>
-<div style="display: flex; align-items: center;">
-    <p style="margin-left: 10px;">.
-  Pests in NewZealand are quickly becoming a more prominent
-        and worrying issue for the biodiversty of our country. </p>
-
-    <img src="images/bignztree.jpg" alt="Example Image" width="30%">
-
-</div>
-</div>
-
-    <div class="pestimage">
-        <img src="images/bignztree.jpg" alt="Example Image" width="100%">
+        <h2> <b>What are the main threats?</b></h2>
+        <div style="display: flex; align-items: center;">
+            <p style="margin-left: 10px;">
+                Pests can take many different shapes and sizes, coming in all
+                forms. However, in NZ there are a few main ones to be aware of.
+                These include lots of mammals such as, possums, rats, stoats and
+                ferryl cats. Although it may come as a surprise to some, the pests
+                are not only animals. Many of our pests are plant based such as
+                Kauri die back, which is a pathogen that kills our native kauri trees
+                and gorse which overpowers and outcompetes native plantation.
+            </p>
+            <img src="images/gorse.jpg" alt="Example Image" width="30%">
+        </div>
     </div>
+
+
+    <div class="Gallery" style="max-width:500px">
+        <img class="mySlides" src="images/22banner.jpg" style="height:300px" alt="Slide 1">
+        <img class="mySlides" src="images/bird2.jpg" style="height:300px" alt="Slide 2">
+        <img class="mySlides" src="images/birdbanner.jpg" style="height:300px" alt="Slide 3">
+        <img class="mySlides" src="images/forrest.jpg" style="height:300px" alt="Slide 4">
+        <img class="mySlides" src="images/gorse.jpg" style="height:300px" alt="Slide 5">
+        <img class="mySlides" src="images/nativebanner.jpg" style="height:300px" alt="Slide 6">
+    </div>
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1; }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 4 seconds
+  }
+</script>
 
     <div class="pesttext">
         <p> insert tet about the pests solutions and what not</p>
@@ -63,6 +92,7 @@
         <p> <b>Author - George Maplesden</b> </p>
         <p>contact - <a href="">23177@students.mrgs.school.nz</a></p>
     </footer>
+</div>
 </div>
 
 </body>

@@ -1,6 +1,4 @@
-body{
-background-color:#a9eb9b ;
-}
+
 
 *{
 margin: 0%;
@@ -11,9 +9,10 @@ padding: 0%;
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  height: 300px;
   content-align: center;
 }
+
 
 body{
   background-color:#154a0a;

@@ -109,3 +109,8 @@ div.nzthenvsnow {
   background-color: green;
   margin: 0;
 }
+
+p {
+  font-size: 130%;
+  padding: 10px;
+}

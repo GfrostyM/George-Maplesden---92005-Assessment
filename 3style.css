@@ -102,3 +102,21 @@ li img {
   background-color: green;
   margin: 0;
 }
+
+p {
+  font-size: 130%;
+  padding: 10px;
+}
+
+.nativebirdimg {
+    content-align: center;
+    margin: auto;
+}
+
+.Gallery{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  content-align: center;
+}

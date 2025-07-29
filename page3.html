@@ -23,8 +23,69 @@
 
 
 
+
+
  <div class="parent">
 
+     <div class="nativebirdstext">
+         <h2>New Zealand's native birds</h2>
+         <p>
+             Biodiversity in basic terms, is the variety of all life on Earth.
+             This includes all living organisms such as animals, plants and
+             other life.
+         </p>
+     </div>
+
+
+    <div class="Gallery" style="max-width:500px">
+        <img class="mySlides" src="images/nativebird1.jpg" style="height:300px" alt="Slide 1">
+        <img class="mySlides" src="images/nativebird2.jpg" style="height:300px" alt="Slide 2">
+        <img class="mySlides" src="images/nativebird3.jpg" style="height:300px" alt="Slide 3">
+        <img class="mySlides" src="images/nativebird4.png" style="height:300px" alt="Slide 4">
+        <img class="mySlides" src="images/nativebird5.jpg" style="height:300px" alt="Slide 5">
+        <img class="mySlides" src="images/nativebird6.jpg" style="height:300px" alt="Slide 6">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1; }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 4 seconds
+        }
+    </script>
+
+
+     <div class="nativebirdstext2">
+         <h2>Endangerment</h2>
+         <p>
+             Biodiversity in basic terms, is the variety of all life on Earth.
+             This includes all living organisms such as animals, plants and
+             other life.
+         </p>
+     </div>
+
+
+     <div class="nativebirdimg">
+         <img src="images/nativebird.jpg">
+     </div>
+
+     <div class="nativebirdstext3">
+         <h2>How can we help?</h2>
+         <p>
+             Biodiversity in basic terms, is the variety of all life on Earth.
+             This includes all living organisms such as animals, plants and
+             other life.
+         </p>
+     </div>
 
 
     <div class="div7">

@@ -94,6 +94,15 @@ li img {
   background-color:green;
 }
 
+div.videoforrest {
+  max-width: 600px;
+  margin: auto;
+}
+
+div.nzthenvsnow {
+ max-width: 600px;
+  margin: auto;
+}
 
 .footer{
   border: solid black 1px;

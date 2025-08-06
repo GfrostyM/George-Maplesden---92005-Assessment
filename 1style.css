@@ -15,3 +15,7 @@ div.Gallery > img {
   height: 100%;
   margin: auto;
 }
+
+div.pestmain img{
+width: 30%;
+}

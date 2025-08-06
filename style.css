@@ -2,22 +2,20 @@
   background-image:url("/images/forrest.jpg");
 }
 
-.div3 {
+.content {
   padding:2%;
+}
+
+.content img {
+  width: 30%;
 }
 
 div.videobio {
   max-width: 600px;
 }
 
-.div5 {
-  padding:2%;
-}
-
-.div6 {
-  padding:2%;
-}
-
-.div8 {
-
+iframe {
+  border: none;
+  width: 100%;
+  height: 400px;
 }

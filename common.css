@@ -3,12 +3,14 @@
   padding: 0;
 }
 
+/* makes it so that the main background/body of the website is set to a dark green color and has the same font (arial)*/
 body {
   background-color:#154a0a;
   color:#CFCFCF;
   font-family: Arial;
 }
 
+ /* Makes the banners on all of the pages the same height, width and keeps them at the top of the page*/
 .banner {
   position: absolute;
   top: 0;
@@ -16,6 +18,7 @@ body {
   height: 360px;
 }
 
+/* */
 .banner:after {
   content:"";
   position: absolute;
@@ -26,6 +29,7 @@ body {
   height: 40%;
 }
 
+/* Makes all of my banner text/heading white, centered and same size*/
 .banner h1 {
   margin-top: 100px;
   color: white;
@@ -33,22 +37,26 @@ body {
   font-size: xxx-large;
 }
 
+/* everything in the parent class now has a top margin */
 .parent {
   margin-top: 320px;
 }
 
+/*gives the divs inside the parent padding, margin and sets the max-width */
 .parent > div {
   padding: 10px 0;
   margin: auto;
   max-width: 800px;
 }
 
+/* Makes all of my header 2 text same color, centered and same size*/
 h2 {
   font-size: xx-large;
   font-weight: bold;
   color: white;
 }
 
+/* Makes the nav bar stick to top of screen and gives it dimensions */
 .nav {
   position: sticky;
   top: 0;
@@ -57,14 +65,20 @@ h2 {
   max-width: 780px;
   height: 40px;
 }
+
+/* Gives my unordered list no style type */
 .nav ul {
   list-style-type: none;
 }
+
+/*  Makes my nav list display block and */
 .nav li {
   display: block;
   float: left;
   width: 20%;
 }
+
+/*  */
 .nav li a {
   display: block;
   width: 100%;
@@ -77,18 +91,25 @@ h2 {
   background-color:green;
 
 }
+
+/* when you hover over nav bar it changes colour */
 .nav li a:hover {
   background-color:#a9eb9b;
 }
+
+/* gives my image in nav bar a size and colour */
 .nav li img {
   height: 40px;
   width: 100%;
   background-color:green;
 }
+
+/* font size of text in nav bar */
 a {
   font-size: 100%;
 }
 
+/* Colourings and centering the footer */
 .footer {
   border: solid black 1px;
   background-color: green;
@@ -96,6 +117,7 @@ a {
   align-content: center;
 }
 
+/* sets text size and padding for all paragraphs  */
 p {
   font-size: 130%;
   padding: 10px;

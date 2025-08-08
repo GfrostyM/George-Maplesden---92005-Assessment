@@ -1,19 +1,24 @@
+/* This is my banner image for home page*/
 .banner {
   background-image:url("/images/forrest.jpg");
 }
 
+/* all of the content on this page will have padding*/
 .content {
   padding:2%;
 }
 
+/* all of the images that are in content in this page will have a width of 30% */
 .content img {
   width: 30%;
 }
 
+/* sets max width to the video */
 div.videobio {
   max-width: 600px;
 }
 
+/* Makes the video a certain size*/
 iframe {
   border: none;
   width: 100%;

@@ -1,27 +1,32 @@
+/* the background/banner image for deforestation page*/
 .banner {
   background-image:url("/images/deforestationbanner.webp");
 }
 
+/* makes the video have a max width*/
 div.videoforrest {
   max-width: 600px;
   margin: auto;
 }
 
+/* gives image a max-width*/
 div.nzthenvsnow {
   max-width: 600px;
   margin: auto;
 }
 
+/* makes the image 100% width*/
 div.nzthenvsnow > img{
 width:100%;
 }
 
+/* makes the image in div 6 30%*/
 div.div6 img {
 width: 30%;
 }
 
 
-
+/* makes the video have no border and gives it sizing dimensions*/
 iframe {
   border: none;
   width: 100%;

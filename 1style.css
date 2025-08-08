@@ -1,7 +1,9 @@
+/* the background/banner image for pests page*/
 .banner {
   background-image:url("/images/1banner.jpg");
 }
 
+/* gives my slide show a max width, size and auto margins*/
 div.Gallery {
   display: block;
   max-width:500px;
@@ -10,12 +12,14 @@ div.Gallery {
   height: 300px;
 }
 
+/* Makes the o,ages on the slide show all have 100% height*/
 div.Gallery > img {
   max-width: 100%;
   height: 100%;
   margin: auto;
 }
 
+/* sets width for photo*/
 div.pestmain img{
 width: 30%;
 }

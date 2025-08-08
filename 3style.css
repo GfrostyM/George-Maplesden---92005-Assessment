@@ -1,17 +1,20 @@
+/* the background/banner image for native birds page*/
 .banner {
   background-image:url("images/nativebanner.jpg");
 }
 
+/* makes the image have max-width*/
 div.nativebirdimg {
   max-width:500px;
   margin: auto;
 }
 
+/* makes the image 100% width*/
 div.nativebirdimg > img {
   width: 100%;
 }
 
-
+/* gives my slide show a max width, size and auto margins*/
 div.Gallery {
   display: block;
   max-width:500px;
@@ -20,6 +23,7 @@ div.Gallery {
   height: 300px;
 }
 
+/* Makes the o,ages on the slide show all have 100% height*/
 div.Gallery > img {
   max-width: 100%;
   height: 100%;

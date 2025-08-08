@@ -18,7 +18,7 @@ body {
   height: 360px;
 }
 
-/* */
+/* does the banner fade and gives after color*/
 .banner:after {
   content:"";
   position: absolute;
@@ -78,7 +78,7 @@ h2 {
   width: 20%;
 }
 
-/*  */
+/* targets the a element so that the active links fills the entire space of the nav bar */
 .nav li a {
   display: block;
   width: 100%;
@@ -104,7 +104,7 @@ h2 {
   background-color:green;
 }
 
-/* font size of text in nav bar */
+/* font size of text/ links in nav bar */
 a {
   font-size: 100%;
 }

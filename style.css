@@ -1,6 +1,6 @@
 /* the background/banner image for home page*/
 .banner {
-  background-image:url("/images/forrest.jpg");
+  background-image:url("images/forrest.jpg");
 }
 
 /* all of the content on this page will have padding*/

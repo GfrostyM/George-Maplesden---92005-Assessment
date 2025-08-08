@@ -1,6 +1,6 @@
 /* the background/banner image for pests page*/
 .banner {
-  background-image:url("/images/1banner.jpg");
+  background-image:url("images/1banner.jpg");
 }
 
 /* gives my slide show a max width, size and auto margins*/

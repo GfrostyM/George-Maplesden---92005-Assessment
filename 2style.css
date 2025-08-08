@@ -1,6 +1,6 @@
 /* the background/banner image for deforestation page*/
 .banner {
-  background-image:url("/images/deforestationbanner.webp");
+  background-image:url("images/deforestationbanner.webp");
 }
 
 /* makes the video have a max width*/
